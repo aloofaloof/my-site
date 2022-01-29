@@ -9,7 +9,7 @@
 }
 body
 {
-    background: linear-gradient(-45deg, #0563ce, #ffffff);
+    background: linear-gradient(-45deg, #0563ce, #0f7586);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -69,4 +69,6 @@ a.cw:hover {
     height: 100vh;
     text-align: center;
 }
-
+.fl{
+    color: #ffffff;
+  }
