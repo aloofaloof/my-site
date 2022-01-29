@@ -4,14 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 body
 {
-    background: linear-gradient(-45deg, #5f3711, #ac5607, #000000, #000000);
+    background: linear-gradient(-45deg, #0563ce, #ffffff);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 200vh;
 }
 
 @keyframes gradient {
@@ -38,12 +39,34 @@ header
     align-items: center;
 
 }
+img {
+    filter: grayscale(1);
+    height: 32px; 
+    transition: 0.5s;
+    margin: 5px;
+}
 
-.wrapper {
-    height: 100vh;
-    /*This part is important for centering*/
+img:hover { 
+    filter: grayscale(0);
+    height: 40px;
+    margin: 7px;
+    
+}
+a { 
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s; 
+}
+a.cw:hover { 
+    color: rgb(255, 251, 0); 
+    text-shadow: 0 0 2px;
+}
+.center {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    color: #fff;
     justify-content: center;
-  }
+    height: 100vh;
+    text-align: center;
+}
+
