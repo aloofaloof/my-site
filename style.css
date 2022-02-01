@@ -50,6 +50,7 @@ a.cw:hover {
     justify-content: center;
     height: 100vh;
     text-align: center;
+    background: rgb(0, 0, 0, 0.6)
 }
 #box {
     display: flex;
